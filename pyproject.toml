@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pygame-shader-gpt4"
+version = "0.1.0"
+description = "An AI-generated shader program that shows a Mandelbrot fractal rotating on the X and Y axis."
+authors = ["Jean-Pierre Chauvel <jean.p.chauvel@gmail.com>"]
+license = "Unlicense"
+readme = "README.md"
+packages = [{include = "pygame_shader_gpt4"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.4.0"
+numpy = "^1.25.0"
+PyOpenGL = "^3.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
